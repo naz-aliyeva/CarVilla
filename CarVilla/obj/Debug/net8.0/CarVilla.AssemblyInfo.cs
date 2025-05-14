@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarVilla")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b54a39a7b562afdcb7b863052b651bf1f728f51")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarVilla")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarVilla")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

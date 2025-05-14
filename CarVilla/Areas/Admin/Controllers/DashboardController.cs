@@ -16,7 +16,7 @@ namespace CarVilla.Areas.Admin.Controllers
 		}
 		public IActionResult Index()
 		{
-			List<FeaturedCar> featuredCars = _context.FeaturedCars.ToList();
+			
 			return View();
 		}
 	}

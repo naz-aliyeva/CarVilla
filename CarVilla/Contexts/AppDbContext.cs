@@ -1,10 +1,13 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CarVilla.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace CarVilla.Contexts;
 
 public class AppDbContext : DbContext
 {
 	private readonly string _connectionString = @"Server=DESKTOP-GTVND9D\SQLEXPRESS;Database=Carvilla;Trusted_Connection=True;TrustServerCertificate=True";
+	
+	public DbSet<FeaturedCar> FeaturedCars { get; set; }	
 	protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 	{
 		optionsBuilder.UseSqlServer(_connectionString);

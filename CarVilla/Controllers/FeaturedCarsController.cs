@@ -31,8 +31,8 @@ public class FeaturedCarsController : Controller
 
 
 	[HttpPost]
-	public IActionResult Create(FlowerSlider flowerSlider)
+	public IActionResult Create(FeaturedCar featuredCar)
 	{
-		return View();
+		return View(featuredCar);
 	}
 }
